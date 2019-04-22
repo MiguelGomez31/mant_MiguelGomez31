@@ -5,7 +5,7 @@ import sys
 
 cuantas = 1
 caracteres = ascii_letters + digits
-def generador(ab):
+def generatePassword(ab):
     for i in range(ab):
         final = ''.join([choice (caracteres) for i in range(4,16)])
         print (final)
